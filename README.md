@@ -7,7 +7,7 @@ Replication code for “Asset Growth Anomaly of Corporate Bonds: A Decomposition
 
 -------------------------------------------------------------
 “retagrank.sas7bdat” includes:
-Mbondcusip: Masked identify of corporate bond CUSIP ID
+1. Mbondcusip: Masked identify of corporate bond CUSIP ID
 Date: Month end date of sample bonds in each trading month
 Ret1: monthly bond return estimated using the transaction from the last five trading days of the month 
 Ret2: monthly bond return estimated using the last transaction of the month
