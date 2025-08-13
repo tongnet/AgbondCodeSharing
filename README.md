@@ -31,7 +31,7 @@ Replication code for “Asset Growth Anomaly of Corporate Bonds: A Decomposition
 22. Secured: indicator variable for secured bonds
 23. Tyld: the corresponding treasury bond yield with a similar maturity
 24. Ys: yield spreads defined as the difference between bond yield and the corresponding treasury bond yield. 
-25. Ys: yield spreads in the previous month.
+25. Ys1: yield spreads in the previous month.
 26. Lagrating: lagged bond rating
 27. Lagduration: lagged bond duration
 28. Dys: month-to-month change in yield spreads.
