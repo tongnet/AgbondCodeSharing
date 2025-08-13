@@ -55,46 +55,45 @@ Replication code for “Asset Growth Anomaly of Corporate Bonds: A Decomposition
 
 -------------------------------------------------------------
 “retreg.dta” includes:
-Same variables included in “retagrank.sas7bdat”
-Additional bond risk factors include:
-MKTB: market risk factor
-Def: default risk factor
-Term: term risk factor
-Lrf: liquidity risk factor
+Same variables included in “retagrank.sas7bdat”. Additional bond risk factors include:
+1. MKTB: market risk factor
+2. Def: default risk factor
+3. Term: term risk factor
+4. Lrf: liquidity risk factor
 
 -------------------------------------------------------------
 “t6edf.dta” includes:
-Mpermno: Masked identify of CRSP permanent number
-Data Date: the date of the observation
-Year: the year of the observation
-Ag: year-over-year growth in total assets 
-Tg: year-over-year growth in tangible assets
-Ig: year-over-year growth in intangible assets
-Blev: book leverage
-Blevchge changes in book leverage
-Edf: expected default frequency
-Edf_chge: changes in expected default frequency
-Lead_edf_chge: changes in expected default frequency in the following year
+1. Mpermno: Masked identify of CRSP permanent number
+2. Data Date: the date of the observation
+3. Year: the year of the observation
+4. Ag: year-over-year growth in total assets 
+5. Tg: year-over-year growth in tangible assets
+6. Ig: year-over-year growth in intangible assets
+7. Blev: book leverage
+8. Blevchge changes in book leverage
+9. Edf: expected default frequency
+10. Edf_chge: changes in expected default frequency
+11. Lead_edf_chge: changes in expected default frequency in the following year
 
 -------------------------------------------------------------
 “t7ys.dta” includes:
-Mbondcusip: Masked identify of corporate bond CUSIP ID.
-PERMNO: CRSP Permanent Number
-Iys: initial bond yield spreads
-Year: the year of the observation
-Ag: year-over-year growth in total assets 
-Logat: the natural logarithm of total assets
-Blev: book leverage
-Blevchge changes in book leverage
-Logsize: the natural logarithm of bond issue size
-Amihud: Amihud illiquidity measure (per million) based on Amihud (2002).
-Edf: expected default frequency
-Coupon: annual coupon rate
-Put: an indicator variable for puttable bonds 
-Call: an indicator variable for callable bonds
-Junk: indicator variable for non-investment grade bonds
-Lagrating: lagged bond rating
-Lagduration: lagged bond duration
+1. Mbondcusip: Masked identify of corporate bond CUSIP ID.
+2. MPERMNO: Masked CRSP Permanent Number
+3. Iys: initial bond yield spreads
+4. Year: the year of the observation
+5. Ag: year-over-year growth in total assets 
+6. Logat: the natural logarithm of total assets
+7. Blev: book leverage
+8. Blevchge changes in book leverage
+9. Logsize: the natural logarithm of bond issue size
+10. Amihud: Amihud illiquidity measure (per million) based on Amihud (2002).
+11. Edf: expected default frequency
+12. Coupon: annual coupon rate
+13. Put: an indicator variable for puttable bonds 
+14. Call: an indicator variable for callable bonds
+15. Junk: indicator variable for non-investment grade bonds
+16. Lagrating: lagged bond rating
+17. Lagduration: lagged bond duration
 
 -------------------------------------------------------------
 “yschge.dta” includes:
@@ -136,7 +135,7 @@ Beta: monthly stock beta
 Note: “tworet.sas7bdat” include same variables as “tworet2.dta,” in SAS data format.
 -------------------------------------------------------------
 
-“regsent. sas7bdat” includes:
+“regsent.sas7bdat” includes:
 Bret: excess monthly bond return estimated using the transaction from the last five trading days of the month
 YSD: changes in yield spreads
 AG: year-over-year growth in total assets
@@ -163,23 +162,24 @@ year: the year of the observation
 permno: CRSP Permanent Number
 
 -------------------------------------------------------------
-“regsentys. sas7bdat” includes:
-ys: initial bond yield spreads
-AG: year-over-year growth in total assets
-GH: the issuer quality measure from Greenwood and Hanson (2013)
-AG_GH: the interaction term of AG and GH
-LSZ: the negative credit spreads measure from L_opez-Salido et al. (2017)
-AG_LSZ: the interaction term of AG and LSZ
-BW: overall market sentiment measure from Baker and Wurgler (2006)
-AG_BW: the interaction term of AG and BW
-LEV: book leverage
-LEV_CHANGE: changes in book leverage
-SIZE: the natural logarithm of total assets
-ILQ: Amihud illiquidity measure (per million) based on Amihud (2002).
-DURATION: bond duration in years
-PAR: the par value of debt initially issued
-PUT: an indicator variable for puttable bonds 
-CALL: an indicator variable for callable bonds
-FIRMRATING: lagged bond rating
-year: the year of the observation
+“regsentys.sas7bdat” includes:
+1. ys: initial bond yield spreads
+2. AG: year-over-year growth in total assets
+3. GH: the issuer quality measure from Greenwood and Hanson (2013)
+4. AG_GH: the interaction term of AG and GH
+5. LSZ: the negative credit spreads measure from L_opez-Salido et al. (2017)
+6. AG_LSZ: the interaction term of AG and LSZ
+6. BW: overall market sentiment measure from Baker and Wurgler (2006)
+7. AG_BW: the interaction term of AG and BW
+8. LEV: book leverage
+9. LEV_CHANGE: changes in book leverage
+10. SIZE: the natural logarithm of total assets
+11. ILQ: Amihud illiquidity measure (per million) based on Amihud (2002).
+12. DURATION: bond duration in years
+13. PAR: the par value of debt initially issued
+14. PUT: an indicator variable for puttable bonds 
+15. CALL: an indicator variable for callable bonds
+16. FIRMRATING: lagged bond rating
+17. year: the year of the observation
 permno: CRSP Permanent Number
+1
