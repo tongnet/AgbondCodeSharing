@@ -97,69 +97,69 @@ Same variables included in “retagrank.sas7bdat”. Additional bond risk factor
 
 -------------------------------------------------------------
 “yschge.dta” includes:
-Mbondcusip: Masked identify of corporate bond CUSIP ID.
-Permno: CRSP Permanent Number
-Yschge: changes in yield spreads
-Iys: initial bond yield spreads
-Year: the year of the observation
-Ag: year-over-year growth in total assets 
-Logat: the natural logarithm of total assets
-Blev: book leverage
-Blevchge changes in book leverage
-Logsize: the natural logarithm of bond issue size
-Amihud: Amihud illiquidity measure (per million) based on Amihud (2002).
-Edf: expected default frequency
-Put: an indicator variable for puttable bonds 
-Call: an indicator variable for callable bonds
-Junk: indicator variable for non-investment grade bonds
-Lagrating: lagged bond rating
-Lagduration: lagged bond duration
-Coupon: annual coupon rate
+1. Mbondcusip: Masked identify of corporate bond CUSIP ID.
+2. MPERMNO: Masked CRSP Permanent Number
+3. Yschge: changes in yield spreads
+4. Iys: initial bond yield spreads
+5. Year: the year of the observation
+6. Ag: year-over-year growth in total assets 
+7. Logat: the natural logarithm of total assets
+8. Blev: book leverage
+9. Blevchge changes in book leverage
+10. Logsize: the natural logarithm of bond issue size
+11. Amihud: Amihud illiquidity measure (per million) based on Amihud (2002).
+12. Edf: expected default frequency
+13. Put: an indicator variable for puttable bonds 
+14. Call: an indicator variable for callable bonds
+15. Junk: indicator variable for non-investment grade bonds
+16. Lagrating: lagged bond rating
+17. Lagduration: lagged bond duration
+18. Coupon: annual coupon rate
 
 -------------------------------------------------------------
 “tworet.dta” includes:
-Mbondcusip: Masked identify of corporate bond CUSIP ID.
-Mno: The number of sample months started from 1990 which calculated as (Year of Date - 1990)*12 + Month of the Date.
-Stkret: monthly stock return
-Bondret: monthly bond return at the issuer level
-Lagbret: twelve month lagged monthly bond return
-Lagsret: twelve month lagged monthly stock return
-Year: the year of the observation
-Ag: year-over-year growth in total assets 
-Roa: return on assets
-Blev: book leverage
-Bm: book to market ratio
-Size: the natural logarithm of total assets
-Beta: monthly stock beta
+1. Mbondcusip: Masked identify of corporate bond CUSIP ID.
+2. Mno: The number of sample months started from 1990 which calculated as (Year of Date - 1990)*12 + Month of the Date.
+3. Stkret: monthly stock return
+4. Bondret: monthly bond return at the issuer level
+5. Lagbret: twelve month lagged monthly bond return
+6. Lagsret: twelve month lagged monthly stock return
+7. Year: the year of the observation
+8. Ag: year-over-year growth in total assets 
+9. Roa: return on assets
+10. Blev: book leverage
+11. Bm: book to market ratio
+12. Size: the natural logarithm of total assets
+13. Beta: monthly stock beta
 
 Note: “tworet.sas7bdat” include same variables as “tworet2.dta,” in SAS data format.
--------------------------------------------------------------
 
+-------------------------------------------------------------
 “regsent.sas7bdat” includes:
-Bret: excess monthly bond return estimated using the transaction from the last five trading days of the month
-YSD: changes in yield spreads
-AG: year-over-year growth in total assets
-GH: the issuer quality measure from Greenwood and Hanson (2013)
-LSZ: the negative credit spreads measure from L_opez-Salido et al. (2017)
-AG_LSZ: the interaction term of AG and LSZ
-BW: overall market sentiment measure from Baker and Wurgler (2006)
-AG_BW: the interaction term of AG and BW
-AG_GH: the interaction term of AG and GH
-LEV: book leverage
-LEV_CHANGE: changes in book leverage
-SIZE: the natural logarithm of total assets
-ILQ: Amihud illiquidity measure (per million) based on Amihud (2002).
-EDF: expected default frequency
-DURATION: bond duration in years
-PAR: the par value of debt initially issued
-PUT: an indicator variable for puttable bonds 
-CALL: an indicator variable for callable bonds
-b_MKT: market risk factor
-b_def: default risk factor
-b_term: Term: term risk factor
-FIRMRATING: lagged bond rating
-year: the year of the observation
-permno: CRSP Permanent Number
+1. Bret: excess monthly bond return estimated using the transaction from the last five trading days of the month
+2. YSD: changes in yield spreads
+3. AG: year-over-year growth in total assets
+4. GH: the issuer quality measure from Greenwood and Hanson (2013)
+5. LSZ: the negative credit spreads measure from L_opez-Salido et al. (2017)
+6. AG_LSZ: the interaction term of AG and LSZ
+7. BW: overall market sentiment measure from Baker and Wurgler (2006)
+8. AG_BW: the interaction term of AG and BW
+9. AG_GH: the interaction term of AG and GH
+10. LEV: book leverage
+11. LEV_CHANGE: changes in book leverage
+12. SIZE: the natural logarithm of total assets
+13. ILQ: Amihud illiquidity measure (per million) based on Amihud (2002).
+14. EDF: expected default frequency
+15. DURATION: bond duration in years
+16. PAR: the par value of debt initially issued
+17. PUT: an indicator variable for puttable bonds 
+18. CALL: an indicator variable for callable bonds
+19. b_MKT: market risk factor
+20. b_def: default risk factor
+21. b_term: Term: term risk factor
+22. FIRMRATING: lagged bond rating
+23. year: the year of the observation
+24. permno: CRSP Permanent Number
 
 -------------------------------------------------------------
 “regsentys.sas7bdat” includes:
